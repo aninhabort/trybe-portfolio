@@ -1,51 +1,72 @@
 body {
-background-color: #e7eaf6;
-font-family: 'Courier New', Courier, monospace;
-text-align: center;
-}
-
-.imagem {
-border-radius: 10% 35%;
-}
-
-.text-color {
+    margin: 0;
     color: #113f67;
+    text-align: center;
+    background-color: #e7eaf6;
 }
 
-.text-gray{
-    color: #38598b;
-    text-align: justify;
-    padding-left: 5px;
+nav {
+    background-color: #a2a8d3;
+    text-align: center;
 }
 
-.text-gray a {
+img {
+    width: 200px;
+    position: absolute;
+    right: 20%;
+    top: 20%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.sobre-mim{
+    width: 60%;
+    margin: 20px;
+    background-color: #a2a8d3;
+    border-radius: 10px;
+    padding: 32px 20px;
+    text-align: left;
+}
+
+.habilidades {
+    margin: 20px;
+    text-align: left;
+}
+
+.impares {
+    background-color: #a2a8d3;
+}
+
+.trybe {
+    color: #21835f;
     text-decoration: none;
-    color: #2fc18c;
-}
-
-/* LIST */
-.list {
-    text-align: justify;
-    color: #38598b;
-    padding: 10px 35px;
-    border-radius: 5px;
 }
 
 /* BUTTON */
-.button {
-    background-color: white;
-    border: 2px solid #a2a8d3;
-    border-radius: 8px;
-    color: gray;
-    padding: 15px 32px;
+footer {
+    text-align: center;
+}
+
+button {
+    background-color: #a2a8d3;
+    color: #113f67;
+    border-left: 2px solid #b4bfee;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    padding: 10px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     transition-duration: 0.4s;
 }
 
-.button:hover {
-    background-color: #a2a8d3;
+button.github {
+    border-right: 2px solid #b4bfee;
+}
+
+button:hover {
+    background-color: #38598b;
     color: white;
 }
